@@ -57,7 +57,7 @@ const useDataStore = create((set, get) => ({
 
     try {
       const dataRes = await axios.get(
-        `http://localhost:8000/data?${queryParams.toString()}`
+        `https://cloud-cost-dashboard-xfg1.onrender.com?${queryParams.toString()}`
       );
 
 
