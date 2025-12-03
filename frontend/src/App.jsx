@@ -33,7 +33,25 @@ export default function App() {
 
         {/* Summary Cards */}
         <div className="mb-8">
-          <SummaryCards />
+          <div
+            className="
+      bg-white 
+      rounded-2xl 
+      shadow-xl 
+      border border-gray-200/60 
+      p-6 
+      backdrop-blur-sm 
+      hover:shadow-2xl 
+      transition-all 
+      duration-300
+    "
+          >
+            <h2 className="text-xl font-bold text-gray-800 mb-4">
+              Cloud Spend Overview
+            </h2>
+
+            <SummaryCards />
+          </div>
         </div>
 
         {/* Main Dashboard Tabs */}
@@ -105,7 +123,6 @@ export default function App() {
             <div className="p-6">
               {activeTab === "analytics" && (
                 <div className="space-y-6">
-                  
                   <SpendCharts />
                 </div>
               )}
