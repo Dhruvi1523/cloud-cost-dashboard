@@ -144,7 +144,8 @@ Dhruvi Jingar
 ![Billing Data Table](./screenshots/BillingDataTable.png)
 ![Spending Analytics (Spend By Provider & Spend By Team)](./screenshots/SpendingAnalytics.png)
 ![Monthly Spending Chart](./screenshots/MonthySpendingChart.png)
-![Details Modal](./screnshots/DetailsModal.png)
+![Details Modal](./screenshots/DetailsModal.png)
+
 
 
 
