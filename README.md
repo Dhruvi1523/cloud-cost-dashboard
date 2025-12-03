@@ -61,6 +61,7 @@ Frontend runs at:
 * Only AWS + GCP included in spend summary
 * Dates always parse correctly using `pandas.to_datetime`
 * Backend always returns valid numeric cost
+* Taking accound_id of AWS data and project_id of GDP data as a ID 
 
 ---
 
@@ -75,6 +76,7 @@ Frontend runs at:
 * Summary metrics
 * Pagination
 * Returns JSON API
+* Support query params like /api/spend?cloud=AWS&team=Core
 
 ### **Frontend**
 
@@ -87,6 +89,7 @@ Frontend runs at:
 * Cloud provider spend comparison chart
 * Smooth UI animations
 * Fully responsive Tailwind UI
+* Detail View ( Click on a row to open a detail modal showing All fields for that entry )
 
 ---
 
@@ -137,9 +140,12 @@ Dhruvi Jingar
 ## 📸 Screenshots 
 
 ![Dashboard](./screenshots/Dashboard.png)
+![Filters](./screenshots/Filters.png)
 ![Billing Data Table](./screenshots/BillingDataTable.png)
 ![Spending Analytics (Spend By Provider & Spend By Team)](./screenshots/SpendingAnalytics.png)
 ![Monthly Spending Chart](./screenshots/MonthySpendingChart.png)
+![Details Modal](./screnshots/DetailsModal.png)
+
 
 
 
