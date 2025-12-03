@@ -19,6 +19,8 @@ const useDataStore = create((set, get) => ({
     env: ["all"],
     page: 1,
     limit: 25,
+    sort_by: "date",
+    order: "desc"
   },
 
   loading: false,
