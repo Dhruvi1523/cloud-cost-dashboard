@@ -105,13 +105,7 @@ export default function Filters() {
               <option value="GCP">
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                  Google Cloud
-                </div>
-              </option>
-              <option value="Azure">
-                <div className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-sky-500 rounded-full"></span>
-                  Microsoft Azure
+                  GCP
                 </div>
               </option>
             </select>
