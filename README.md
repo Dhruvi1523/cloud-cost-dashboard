@@ -136,10 +136,10 @@ Dhruvi Jingar
 
 ## 📸 Screenshots 
 
-```
 ![Dashboard](./screenshots/Dashboard.png)
 ![Billing Data Table](./screenshots/BillingDataTable.png)
-![Spending Analystics ( Spend By Provider & Spend by Team )](./screenshots/SpendingAnalytics.png)
+![Spending Analytics (Spend By Provider & Spend By Team)](./screenshots/SpendingAnalytics.png)
 ![Monthly Spending Chart](./screenshots/MonthySpendingChart.png)
-```
+
+
 
